@@ -77,12 +77,11 @@ vibe-automation/
 ├── backend/
 │   ├── server.js              ← Express API + workflow execution engine
 │   ├── package.json
-│   └── .env                   ← PORT config
+│   └── .env.example                   ← PORT config
 │
 └── frontend/
     ├── src/
     │   ├── App.jsx            ← Layout shell + VibeBot chat panel
-    │   ├── vibe-automation-v3.jsx  ← Canvas, nodes, drag-and-drop, execution
     │   └── main.jsx
     ├── index.html
     ├── vite.config.js
